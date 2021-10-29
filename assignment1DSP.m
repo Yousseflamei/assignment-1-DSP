@@ -86,12 +86,14 @@ eye(3)
 %      1     0     0
 %      0     1     0
 %      0     0     1
+%anser of question number3
 [A,B]
 % Error using horzcat
 % Dimensions of matrices being concatenated are not consistent.
 [A;B];
 % Error using vertcat
 % Dimensions of matrices being concatenated are not consistent.
+%anser of question number4
 x=[5;5;5;5;5;5;5];
 diag([5,5,5,5,5,5,5]);
 [ans,x]
@@ -105,6 +107,7 @@ diag([5,5,5,5,5,5,5]);
 %      0     0     0     0     5     0     0     5
 %      0     0     0     0     0     5     0     5
 %      0     0     0     0     0     0     5     5
+%anser of question number5
 A(1,:)
 
 % ans =
